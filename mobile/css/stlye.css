@@ -1,8 +1,9 @@
+@media (max-width: 600px){
 .header_area .container,
 .search_bar .container,
 .main_menu .container,
 .info .container,
-nav_bar .container{
+.nav_bar .container{
     padding: 0 16px;
 }
 
@@ -358,4 +359,5 @@ nav_bar .container{
     font-size: 14px;
     font-weight: 600;
     text-align: center;
+}
 }
