@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/script.js" defer></script>
+    <script>
+        var ua = window.navigator.userAgent.toLowerCase();
+        var mobileWindowWidth;
+        if(/iphone/.test(ua) || /android/.test(ua) || /opera/.test(ua) || /bada/.test(ua) || /ipad/.test(ua) || /windows ce/.test(ua)) {
+       document.location.replace("/mobile/index.html");
+        }
+    </script>
+    <title>Q-net</title>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header_area">
+            <div class="container">
+                <ul class="header">
+                    <li class="logo"><a href="#none"><img src="./img/logo.gif" alt="logo"></a></li>
+                    <li class="search">
+                        <input type="text"  class="search_bar" placeholder="필요하신 서비스를 찾아보세요.">
+                        <input type="button" value="검색" >
+                    </li>
+                    <li class="header_r">
+                        <div class="login"><a href="#none"><p>로그인</p></a></div>
+                        <div class="language"><a href="#none"><img src="./img/global.png" alt="global"></a></div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <nav class="gnb_area">
+            <div class="container">
+                <ul class="gnb">
+                    <li class="menu">
+                        <a href="#none">
+                            <p>국가자격시험</p>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <p>전문자격시험</p>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <p>자격증/확인서</p>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <p>마이페이지</p>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <p>고객지원</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="submenu">
+            <div class="container">
+                <ul class="cate">
+                    <li class="menu"><a href="#none">원서접수</a></li>
+                    <li class="menu"><a href="#none">합격자/답안발표</a></li>
+                    <li class="menu"><a href="#none">시험일정</a></li>
+                    <li class="menu"><a href="#none">필기시험안내</a></li>
+                    <li class="menu"><a href="#none">실기시험안내</a></li>
+                    <li class="menu"><a href="#none">자격정보</a></li>
+                    <li class="menu"><a href="#none">자격검정통계</a></li>
+                    <li class="menu"><a href="#none">국가자격대여근절캠페인</a></li>
+                </ul>
+                <ul class="cate">
+                    <li class="menu"><a href="#none">원서접수</a></li>
+                    <li class="menu"><a href="#none">합격자/답안발표</a></li>
+                    <li class="menu"><a href="#none">시험일정</a></li>
+                    <li class="menu"><a href="#none">필기시험안내</a></li>
+                    <li class="menu"><a href="#none">실기시험안내</a></li>
+                    <li class="menu"><a href="#none">자격정보</a></li>
+                    <li class="menu"><a href="#none">자격검정통계</a></li>
+                    <li class="menu"><a href="#none">국가자격대여근절캠페인</a></li>
+                </ul>
+                <ul class="cate">
+                    <li class="menu"><a href="#none">자격증 발급 안내</a></li>
+                    <li class="menu"><a href="#none">확인서 발급</a></li>
+                    <li class="menu"><a href="#none">자격증 발급 </a></li>
+                    <li class="menu"><a href="#none">자격취득/미발급</a></li>
+                    <li class="menu"><a href="#none">자격증/확인서 진위확인서</a></li>
+                </ul>
+                <ul class="cate">
+                    <li class="menu"><a href="#none">원서접수관리</a></li>
+                    <li class="menu"><a href="#none">응시자격</a></li>
+                    <li class="menu"><a href="#none">자격증취득조회</a></li>
+                    <li class="menu"><a href="#none">발급조회현황</a></li>
+                    <li class="menu"><a href="#none">면제정보보기</a></li>
+                    <li class="menu"><a href="#none">개인정보관리</a></li>
+                </ul>
+                <ul class="cate">
+                    <li class="menu"><a href="#none">공지사항</a></li>
+                    <li class="menu"><a href="#none">이용안내</a></li>
+                    <li class="menu"><a href="#none">고객참여</a></li>
+                    <li class="menu"><a href="#none">자료실</a></li>
+                    <li class="menu"><a href="#none">환불안내</a></li>
+                    <li class="menu"><a href="#none">가치드림방</a></li>
+                    <li class="menu"><a href="#none">정보공개</a></li>
+                    <li class="menu"><a href="#none">부정신고센터</a></li>
+                    <li class="menu"><a href="#none">자격증 불법대여 신고</a></li>
+                    <li class="menu"><a href="#none">원격지원</a></li>
+                    <li class="menu"><a href="#none">수험자가이드</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="quick_menubar">
+            <div class="quick_menu">
+                <a  class="img" href="#none"><img src="./img/side_logo.gif" alt="quick_menubar_logo"></a>
+                <a class="menu" href="#none"><p>고객참여</p></a>
+                <a class="menu" href="#none"><p>부정신고센터</p></a>
+                <a class="menu" href="#none"><p>기술자격<br>수험자가이드</p></a>
+                <a class="menu" href="#none"><p>원격지원</p></a>
+                <a class="menu" href="#none"><p>모바일앱</p></a>
+                <a class="menu" href="#none"><p>이용안내</p></a>
+            </div>
+            <span class="topbtn">
+                <p>TOP</p>
+            </span>
+        </div>
+        <div class="link_top">
+            <div class="container">
+                <ul class="link_top_inner">
+                    <li class="menu">
+                        <a href="#none">
+                            <div class="img">
+                                <img src="./img/원서접수.png" alt="원서접수">
+                            </div>
+                            <div class="textbox">
+                                <p class="head">원서접수</p>
+                                <p class="sub">국가 기술 전문자격</p>
+                                <p class="sub">원서접수 신청</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <div class="img">
+                                <img src="./img/합격자.png" alt="합격자/답안발표">
+                            </div>
+                            <div class="textbox">
+                                <p class="head">합격자/답안발표</p>
+                                <p class="sub">개인 득점 조회</p>
+                                <p class="sub">및 합격자/답안발표</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <div class="img">
+                                <img src="./img/자격증신청.png" alt="자격증신청">
+                            </div>
+                            <div class="textbox">
+                                <p class="head">자격증신청</p>
+                                <p class="sub">사장형 · 수집형 </p>
+                                <p class="sub">자격증 발급</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#none">
+                            <div class="img">
+                                <img src="./img/일정.png" alt="시험일정안내">
+                            </div>
+                            <div class="textbox">
+                                <p class="head">시험일정안내</p>
+                                <p class="sub">국가기술 · 전문자격</p>
+                                <p class="sub">시험일정</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="link_bottom">
+            <div class="container">
+                <p class="service">자주찾는 서비스</p>
+                <ul class="link_bottom_menu">
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/자격정보.png" alt="자격정보">
+                        </div>
+                        <p class="cate">자격정보</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/응시자격.png" alt="응시자격">
+                        </div>
+                        <p class="cate">응시자격</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/응시자격자가진단.png" alt="응시자격자가진단">
+                        </div>
+                        <p class="cate">응시자격자가진단</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/원서접수현황.png" alt="원서접수현황">
+                        </div>
+                        <p class="cate">원서접수현황</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/확인서신청.png" alt="확인서신청">
+                        </div>
+                        <p class="cate">확인서신청</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/수험자준비물.png" alt="수험자준비물">
+                        </div>
+                        <p class="cate">수험자준비물</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/자료실.png" alt="자료실">
+                        </div>
+                        <p class="cate">자료실</p>
+                    </li>
+                    <li class="menu">
+                        <div class="img">
+                            <img src="./img/자주찾는서비스/환불정보.png" alt="환불정보">
+                        </div>
+                        <p class="cate">환불정보</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <section class="bbs_list">
+            <div class="container">
+                <div class="bbs_menubar">
+                    <ul class="bbs_cate">
+                        <li data-tab="tab1" class="cate on"><p>공지사항</p></li>
+                        <li data-tab="tab2" class="cate"><p>법령개정</p></li>
+                        <li data-tab="tab3" class="cate"><p>시행</p></li>
+                        <li data-tab="tab4" class="cate"><p>출제</p></li>
+                        <li data-tab="tab5" class="cate"><p>서비스 개선</p></li>
+                    </ul>
+                    <div class="more">더보기</div>
+                </div>
+                
+                <ul id="tab1" class="items on">
+                    <li class="item">
+                        <p class="info">정기 기능사 제 4회 실기시험 
+                            원서접수 안내</p>
+                        <p class="time">2024.09.26</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">기술사 제134회 면접시험수험자
+                            안내(큐넷 시스템 중단기간 관련
+                            일부수정)</p>
+                        <p class="time">2024.09.26</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">차세대 Q-Net, CQ-Net 정보
+                            시스템 전환에 따른 정보서비스 
+                            중단 안내</p>
+                        <p class="time">2024.09.24</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">국가기술자격 응시자격서류 제출
+                            유의사항 안내</p>
+                        <p class="time">2024.09.19</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">간편결제 이용 시 유의사항 안내
+                            (꿈디딤카드)</p>
+                        <p class="time">2024.08.23</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">국가기술자격시험 활용 가능 
+                            계산기 안내</p>
+                        <p class="time">2024.08.06</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">2024년도 제35회 공인중개사 
+                            자격시험 시행계획 공고</p>
+                        <p class="time">2024.07.26</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">국가자격검정 인정신분증 범위
+                            안내</p>
+                        <p class="time">2024.07.18</p>
+                    </li>
+                </ul>
+                <ul id="tab2" class="items">
+                    <li class="item">
+                        <p class="info">동일유사교과목】여성가족부령이 정하는 ‘상담관련분야’ 2024.9월 기준</p>
+                        <p class="time">2024.09.25</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">국가기술자격법령 개정에 따라 2024년부터 변경되는 자격종목 안내</p>
+                        <p class="time">2023.12.05</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">용접기능사 종목 변경에 따른 필기면제 안내 사항</p>
+                        <p class="time">2023.07.17</p>
+                    </li>
+
+                </ul>
+                <ul id="tab3" class="items none">
+                    <div class="img">
+                        <img src="./img/찾을수없다.gif" alt="can't find">
+                    </div>
+                    <p class="info">『등록된 글이 없습니다.』</p>
+                </ul>
+                <ul id="tab4" class="items">
+                    <li class="item">
+                        <p class="info">여성복기능사(양장기능사(~2024년)) 시험 변경 안내</p>
+                        <p class="time">2024.09.20</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">남성복기능사(양복기능사(~2024년)) 시험 변경 안내</p>
+                        <p class="time">2024.09.20</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">2025년 시행 타일기능사 작업형 실기시험문제 사전공개 알림</p>
+                        <p class="time">2024.07.09</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">전자기능사 실기시험 수험자 유의사항 추가 안내</p>
+                        <p class="time">2024.06.21</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">전자분야 실기시험 지참준비물 유의사항 안내</p>
+                        <p class="time">2024.06.12</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">2025년도 직업상담사1급 실기시험 변경 안내</p>
+                        <p class="time">2024.05.28</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">2025년 개편예정 설비보전기사/산업기사/기능사 작업형 실기시험 공개문제 등재 알림</p>
+                        <p class="time">2024.04.15</p>
+                    </li>
+                    <li class="item">
+                        <p class="info">공조냉동기계산업기사, 기능사 지급재료 변경 안내</p>
+                        <p class="time">2024.04.03</p>
+                    </li>
+                </ul>
+                <ul id="tab5" class="items none">
+                    <div class="img">
+                        <img src="./img/찾을수없다.gif" alt="can't find">
+                    </div>
+                    <p class="info">『등록된 글이 없습니다.』</p>
+                </ul>
+            </div>
+        </section>
+        <article class="info_container">
+            <div class="container">
+                <div class="left">
+                    <img src="./img/sec3/sec3.jpg" alt="left_banner">
+                </div>
+                <div class="center">
+                    <div class="top">
+                        <a href="#none"><img src="./img/sec3/전화.png" alt="전화"></a>
+                        <p class="head">고객지원</p>
+                        <p class="tel">1644 - <strong>8000</strong></p>
+                        <div class="sub">
+                            <p class="info">평일 : 09:00 ~ 18:00 (월 ~ 금)</p>
+                            <p class="info">휴말 : 토,일요일 및 공휴일은 쉽니다.</p>
+                        </div>
+                    </div>
+                    <a href="#none" class="bottom">
+                        <div class="img">
+                            <img src="./img/sec3/sec3_tel_img.gif" alt="전화">
+                        </div>
+                        <p class="tel_list"><strong>지부 / 지사 </strong>연락처</p>
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#none" class="top">
+                        <img src="./img/sec3/sec3_img5.jpg" alt="NCS & Course Based Qualification">
+                    </a>
+                    <div class="bottom">
+                        <div class="textbox">
+                            <div class="text">
+                                <strong><em>처음</em>방문하셨나요?</strong>
+                                <p>큐넷 서비스를 <em>미리 체험</em>해보고<br>
+                                사이트를 쉽고 빠르게 이용할 수 있는<br>
+                                <em>이용 안내, 큐넷 길라잡이</em>를 제공.</p>
+                            </div>   
+                            <div class="img"><img src="./img/sec3/전구.png" alt="전구"></div>
+                        </div>
+
+                        <div class="btns">
+                            <a href="#none">큐넷 체험하기</a>
+                            <a href="#none">CBT 체험하기</a>
+                            <a href="#none">이용안내 바로가기</a>
+                            <a href="#none">큐넷길라잡이 보기</a>
+                        </div>
+                        <div class="btns2">
+                            <a href="#none">멀티미디어 실기시험 체험하기</a>
+                            <a href="#none">전문자격시험 체험학습관 바로 가기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer class="footer_area">
+            <div class="footer_t">
+                <div class="container">
+                    <ul class="menu">
+                        <li><a href="#none">개인정보처리방침</a></li>
+                        <li><a href="#none">이용약관</a></li>
+                        <li><a href="#none">찾아오시는 길</a></li>
+                        <li><a href="#none">뷰어 다운로드</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_b">
+                <div class="container">
+                    <a href="#none"><img src="./img/footer_logo.gif" alt="HRDK"></a>
+                    <div class="textbox">
+                        <p>울산광역시 중구 종가로 345 한국산업인력공단 (우)44538 ☏1644 - 8000 <em>[국가기술자격 응시자격서류 제출 주소 등 안내]</em></p>
+                        <p>Copyright ⓒ 1999~2015 All Rights Reserved. Human Resources Development Service of Korea.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

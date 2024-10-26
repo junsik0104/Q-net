@@ -1,0 +1,37 @@
+/* @import url('https://webfontworld.github.io/pretendard/Pretendard.css'); */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-size: 100%;
+    /* font-family: 'Pretendard', sans-serif; */
+    font-family: "Pretendard Variable", sans-serif;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+ul,li{
+    list-style: none;
+}
+
+img,svg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+input{
+    border: none;
+    outline: none;
+}
