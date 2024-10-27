@@ -244,14 +244,17 @@
     height: 30px;
 }
 
+.main_menu .bottom .left{
+    width: 50%;
+}
+
 .main_menu .bottom .left .menu{
-    width: 167px;
+    width: 100%;
     height: 85px;
     background-color: #DEE7FE;
     border-radius: 20px;
     margin-bottom: 10px;
-    padding-top: 12px;
-    padding-left: 12px;
+    padding: 12px 12px 0 12px;
 }
 
 .main_menu .bottom .left .menu .head{
@@ -261,6 +264,7 @@
 }
 .main_menu .bottom .left .menu .text_box{
     display: flex;
+    justify-content: space-between;
 }
 .main_menu .bottom .left .menu .sub{
     font-size: 12px;
@@ -271,7 +275,7 @@
 }
 
 .main_menu .bottom .right{
-    width: 166px;
+    width: 50%;
     height: 180px;
     background-color: #8DACFD;
     border-radius: 20px;
@@ -291,6 +295,10 @@
     position: absolute;
     bottom: 16px;
     right: 16px;
+}
+
+.info{
+    padding-bottom: 100px;
 }
 
 .info .menu{
