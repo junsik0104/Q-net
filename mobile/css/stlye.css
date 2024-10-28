@@ -9,10 +9,11 @@
 
 .header_area .header{
     width: 100%;
-    height: 92px;
+    height: 72px;
+    margin-top: 20px;
 
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
 
     padding-bottom: 22px;
