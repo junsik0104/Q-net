@@ -352,6 +352,11 @@
     line-height: 16px;
 }
 
+.home .info .menu .img{
+    width: 44px;
+    height: 44px;
+}
+
 .nav_bar{
     width: 100%;
     height: 70px;
