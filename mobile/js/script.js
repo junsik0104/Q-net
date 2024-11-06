@@ -73,8 +73,33 @@ document.addEventListener(`DOMContentLoaded`,function(){
         tabContent.classList.remove(`on`);
       }
 
-      const changeTeb = document.querySelector(`#${tab}`);
-      changeTeb.classList.add(`on`);
+      const changeTab = document.querySelector(`#${tab}`);
+      changeTab.classList.add(`on`);
+    });
+  }
+
+
+  const navTabs = document.querySelectorAll(`.nav_bar .container .b_menu .menu`);
+
+  for(const navTab of navTabs){
+    navTab.addEventListener(`click`,function(){
+      this.classList.add(`on`);
+
+      for(const removeBtn of navTabs){
+        if(removeBtn != this){
+            removeBtn.classList.remove(`on`);
+        }
+      }
+
+      const tab = this.getAttribute(`data-alt`);
+      const tabBox = document.querySelectorAll(`.tabbox .nav-tab`);
+
+      for(const tabContent of tabBox){
+        tabContent.classList.remove(`on`);
+      }
+
+      const changeTab = document.querySelector(`#${tab}`);
+      changeTab.classList.add(`on`);
     });
   }
 
